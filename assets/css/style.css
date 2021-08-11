@@ -1,0 +1,45 @@
+:root {
+
+    --CouleurDocument : #f6f9fc;
+    --header: #ffffff;
+    --police: #49525c;
+    --playBtn: #be3631;
+}
+
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/********************************************/
+
+nav {
+
+    background-color: var(--header);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav a {
+
+    text-decoration: none;
+    color: var(--police); 
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+main {
+
+    display:absolute;
+
+}
+
+
